@@ -1,0 +1,12 @@
+your_profile_name:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: FKA50167
+      user: dbtlabs_echavez
+      password: Snow_Flake90
+      role: TRANSFORMER
+      warehouse: TRANSFORMING  # Specify your warehouse here
+      database: ANALYTICS
+      schema: DBT_ECHAVEZ
